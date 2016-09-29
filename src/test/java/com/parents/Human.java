@@ -17,7 +17,7 @@ public class Human extends CharacterClass {
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
-		super.setHealth(health + 50);
+		super.setHealth((health) + 50);
 	}
 
 	@Override

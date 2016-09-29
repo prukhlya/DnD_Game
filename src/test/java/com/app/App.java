@@ -2,6 +2,7 @@ package com.app;
 
 import java.util.Scanner;
 
+import com.ourcharacters.HumanWizard;
 import com.parents.*;
 
 public class App {
@@ -10,6 +11,16 @@ public class App {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
+		
+		HumanWizard ourHumanWizard = new HumanWizard();
+		
+		ourHumanWizard = ourHumanWizard.makeHumanWizard();
+		
+		System.out.println(ourHumanWizard.getWeapon());
+		System.out.println(ourHumanWizard.getHealth());
+		System.out.println(ourHumanWizard.getMagic());
+		System.out.println(ourHumanWizard.getName());
+		
 		//totally for the console
 		boolean userInputCorrect = false;
 		
